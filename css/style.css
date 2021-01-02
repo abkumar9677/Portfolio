@@ -27,5 +27,7 @@ body{
 }
 .tag{
     background: linear-gradient(rgb(214, 128, 193),rgb(169, 118, 235));
-    
+    font-weight: 500;
+    font-size: 2em;
+    padding:10px;
 }
