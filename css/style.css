@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    line-height: 2.6em;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.top{
+    background: linear-gradient(#49d8ce ,#e6b452);
+    width: 100%;
+    padding-top: 80px;
+    position: relative;
+    height: 720px;
+}
+#pic{
+    border-radius: 30%;
+    margin: 0%;
+    
+}
+.caption{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: x-large;
+}
+.tag{
+    background: linear-gradient(rgb(214, 128, 193),rgb(169, 118, 235));
+    
+}
