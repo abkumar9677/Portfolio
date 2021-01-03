@@ -9,9 +9,9 @@ body{
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 .top{
-    background: linear-gradient(#49d8ce ,#e6b452);
+    background: linear-gradient(#8175e7 ,#86f3bd);
     width: 100%;
-    padding-top: 80px;
+    /* padding-top: 80px; */
     position: relative;
     height: 720px;
 }
@@ -30,4 +30,11 @@ body{
     font-weight: 500;
     font-size: 2em;
     padding:10px;
+}
+.middle{
+    background: rgb(83, 230, 210);
+    width: 100%;
+    /* padding-top: 80px; */
+    position: relative;
+    height: 720px;
 }

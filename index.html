@@ -7,21 +7,42 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
-<body>
+<body onload="typeWriter()">
     <div class="top">
+        <div>
         <img src="./img/robot.gif" style="float: left;">
-        <!-- <marquee><img src="./img/hello.gif" width="95px" height="110px"></marquee> -->
-        <div style="text-align: center;">
-        <figure><img src="./img/ak.png" width="160px" height="230px" id="pic"></figure>
-        <figcaption class="caption">Hey! This is <code style="font-size: 2em;background-color: rgb(250, 250, 73);padding: 7px;">ABHISHEK-KUMAR</code> here......</figcaption>
         </div>
+        <!-- <marquee><img src="./img/hello.gif" width="95px" height="110px"></marquee> -->
+        
+        <div style="text-align: center;float: right;">
+        <figure><img src="./img/ak.png" width="160px" height="230px" id="pic"></figure>
+        <figcaption class="caption">Hey! This is <code style="font-size: 2em;font-family:'Audiowide',cursive;background-color: rgb(250, 250, 73);padding: 7px;">ABHISHEK-KUMAR</code> here......</figcaption>
+        
         <p style="font-family: 'Lobster',cursive;text-align: center;">
             I code simple, and I'm loving it.<br>
-            <span class="tag">CODING ENTHUSIAST</span>
+            <span class="tag">CODING ENTHUSIAST<br><p id="demo"></p></span>
         </p>
+        </div>
     </div>
-    
+    <div class ="middle">
+        
+
+    </div>
+    <script>
+        var i = 0;
+        var txt = 'Welcome to the selfish WORLD!';
+        var speed = 600;
+
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("demo").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+    </script>
 </body>
 </html>
