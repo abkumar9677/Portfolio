@@ -78,7 +78,8 @@ hr{
   border-radius:50%;
   margin-right: 20px;
   transition:transform .6s;
-  
+  border: 5px solid #70d5cc;
+  border-style: ridge;
 }
 .tele:hover{
   transform: scale(1.15);
@@ -86,9 +87,15 @@ hr{
 .social2{
   position: absolute; visibility: visible; left: 100px; top: 450px;right: 100px;
 }
-
-
-
+.social3{
+  position: absolute; visibility: visible; left: 100px; top: 530px;right: 100px;
+}
+.txt{
+  font-size:25px;
+  font-weight:500;
+  text-align: center;
+  background-color: rgba(69, 96, 212, 0.404);
+}
 
 @media screen and (max-width: 500px) {
   .sidenav {padding: 5px;display :none;}
