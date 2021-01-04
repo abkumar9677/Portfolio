@@ -1,0 +1,104 @@
+*::after::before{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0%;
+  padding: 0%;
+  background-image: url('../img/neonback.jpg');
+  background-size: cover;
+  resize: both;
+}
+/* .quote-rad{
+  width: 40em;
+  opacity: 0.3;
+} */
+.card.quote-rad {
+    border-radius: 0 0 85px;
+    opacity: 0.35;
+    position: absolute;
+    float: left
+}
+footer.card-blockquote {
+    float: right;
+    margin-right: 40px;
+    line-height: 0.5;
+    font-weight: 900;
+}
+blockquote.blockquote {
+    font-weight: 600;
+}
+hr{
+  padding:3px;
+  background-color:rgb(54, 140, 221);
+  transform:translate(0,335px)
+}
+
+.me{
+  transform:translate(0,220px);
+  background-color:rgb(27, 112, 138);
+  padding:6px;
+  border-radius:50%;
+}
+.sidenav {
+  width: 90px;
+  position: fixed;
+  z-index:4;
+  top: 60px;
+  right: 0px;
+  background: rgba(165, 228, 233, 0.644);
+  opacity: 0.35;
+  overflow-x: hidden;
+  padding: 5px 0;
+  border-radius:10px 0 0 10px;
+}
+
+.sidenav a {
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  transition: transform .2s;
+}
+
+.sidenav a:hover {
+  color: #064579;
+  text-decoration: none;
+  transform:scale(1.15);
+}
+.social{
+  /* height: 240px;
+  margin-top:90px; */
+  right: 0;
+  position: absolute; visibility: visible; left: 20px; top: 370px;
+}
+
+.tele{
+  border-radius:50%;
+  margin-right: 20px;
+  transition:transform .6s;
+  
+}
+.tele:hover{
+  transform: scale(1.15);
+}
+.social2{
+  position: absolute; visibility: visible; left: 100px; top: 450px;right: 100px;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+  .sidenav {padding: 5px;display :none;}
+  .sidenav a {font-size: 18px;}
+  .me{width:100px; height:110px;transform: translate(0,260px);}
+  .tele{height: 35px;width:35px;}
+}
+@media screen and (max-width:760px){
+  .card.quote-rad{width:200px;height:100px;overflow:hidden;}
+  .card-body.resp{padding:5px;}
+  .blockquote p,cite{font-size:10px;}
+  
+}
