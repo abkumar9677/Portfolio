@@ -9,13 +9,12 @@ body{
   background-size: cover;
   resize: both;
 }
-/* .quote-rad{
-  width: 40em;
-  opacity: 0.3;
-} */
+section{
+  height:700px;
+}
 .card.quote-rad {
     border-radius: 0 0 85px;
-    opacity: 0.35;
+    background-color: rgba(69, 96, 212, 0.404);
     position: absolute;
     float: left
 }
@@ -27,6 +26,7 @@ footer.card-blockquote {
 }
 blockquote.blockquote {
     font-weight: 600;
+    text-shadow:0 0 20px #b1a3aa;
 }
 hr{
   padding:3px;
@@ -97,15 +97,40 @@ hr{
   background-color: rgba(69, 96, 212, 0.404);
 }
 
+.card.about{
+  text-align: center;
+  width: 150px;
+  background-color: rgba(69, 96, 212, 0.404);
+  padding: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.425);
+  margin-top: 50px;
+  text-shadow:0 0 20px #b1a3aa;
+  border-radius: 25px 0 25px 0;
+}
+
+
+
 @media screen and (max-width: 500px) {
   .sidenav {padding: 5px;display :none;}
   .sidenav a {font-size: 18px;}
   .me{width:100px; height:110px;transform: translate(0,260px);}
   .tele{height: 35px;width:35px;}
+  
 }
 @media screen and (max-width:760px){
   .card.quote-rad{width:200px;height:100px;overflow:hidden;}
   .card-body.resp{padding:5px;}
   .blockquote p,cite{font-size:10px;}
-  
+  span.social3.txt{visibility: hidden;}
+}
+@media screen and (max-width:950px){
+  span.social3.txt{font-size:16px;}
+}
+@media screen and (max-width:830px){
+  span.social3.txt{font-size:12px;}
+}
+@media screen and (max-width:325px){
+  html{margin-left: 12px;}
 }
