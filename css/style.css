@@ -8,11 +8,11 @@ html{
 body{
   margin: 0%;
   padding: 0%;
-  background-image: url('../img/neonback.jpg');
+  background-image: url('../img/bg2.jpg');
   background-size: cover;
 }
 section{
-  height:700px;
+  height:500px;
 }
 .card.quote-rad {
     border-radius: 0 0 85px;
