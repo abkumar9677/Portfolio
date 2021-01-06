@@ -104,16 +104,15 @@ hr{
 }
 
 .card.about-text{
-  background-color:cadetblue;
-  border-color:darkblue;
-  padding:10px 15px 5px 20px;
-  width: 50rem;
-  opacity: 0.6;
-  font-weight: 600;
-  border-radius: 0 50px 0 50px;
-  margin-left:400px;
-  font-size: 1.3rem;
-  margin-top: 50px;
+  background-color: rgba(69, 96, 212, 0.404);opacity: 0.6;border-radius: 2rem 0 0 0;margin-top:1rem;text-align: justify;font-weight: 600;color: antiquewhite;
+}
+img.skills-img{
+  width: 5rem;
+  height: 5rem;
+  border: 2px solid #064579;
+  border-style: ridge;
+  background-color: rgb(99, 153, 153);
+  border-radius: 50%;
 }
 
 
@@ -139,4 +138,5 @@ hr{
 }
 @media screen and (max-width:325px){
   html{margin-left: 12px;}
+  .card.about-text{font-size: 1rem;}
 }
