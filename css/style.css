@@ -1,6 +1,6 @@
-*::after::before{
+/* *::after::before{
   box-sizing: border-box;
-}
+} */
 html{
   scroll-behavior: smooth;
 }
@@ -10,7 +10,6 @@ body{
   padding: 0%;
   background-image: url('../img/neonback.jpg');
   background-size: cover;
-  resize: both;
 }
 section{
   height:700px;
@@ -101,33 +100,20 @@ hr{
 }
 
 .card.about{
-  text-align: center;
-  width: 220px;
-  background-color: rgba(69, 96, 212, 0.404);
-  padding: 10px;
-  font-weight: 600;
-  font-size: 38px;
-  color: rgba(0, 0, 0, 0.425);
-  margin-top: 50px;
-  text-shadow:0 0 20px #b1a3aa;
-  border-radius: 25px 0 25px 0;
-  opacity: 0.8;
+  margin-top:2rem;background-color: rgba(69, 96, 212, 0.404);opacity: 0.6;border-radius: 1.5rem 0 1.5rem 0;height:3rem;font-weight: 600;padding: 0.2rem;text-align:center;color: antiquewhite;font-size: 1.5rem;
 }
+
 .card.about-text{
   background-color:cadetblue;
   border-color:darkblue;
   padding:10px 15px 5px 20px;
-  width: 800px;
+  width: 50rem;
   opacity: 0.6;
   font-weight: 600;
   border-radius: 0 50px 0 50px;
-  left:400px;
-  font-size: 20px;
+  margin-left:400px;
+  font-size: 1.3rem;
   margin-top: 50px;
-  transition: transform 0.8s;
-}
-.card.about-text:hover{
-  transform: scaleX(1.15);
 }
 
 
@@ -143,6 +129,7 @@ hr{
   .card-body.resp{padding:5px;}
   .blockquote p,cite{font-size:10px;}
   span.social3.txt{visibility: hidden;}
+  .card.about-text{margin-left: 0;}
 }
 @media screen and (max-width:950px){
   span.social3.txt{font-size:16px;}
